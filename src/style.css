@@ -1,0 +1,10 @@
+html, body, #app { height: 100%; margin: 0; padding: 0; }
+* { box-sizing: border-box; }
+
+body {
+  background: #0b1220; /* safe fallback before Vue mounts and sets theme vars */
+}
+
+body, button, input, select {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}

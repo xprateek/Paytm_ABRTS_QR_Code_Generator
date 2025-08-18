@@ -1,0 +1,303 @@
+{
+  "sizes": [
+    { "label": "Small (128x128)", "value": 128 },
+    { "label": "Medium (256x256)", "value": 256 },
+    { "label": "Large (512x512)", "value": 512 }
+  ],
+  "errorCorrections": [
+    { "label": "Low (L)", "value": "L" },
+    { "label": "Medium (M)", "value": "M" },
+    { "label": "Quartile (Q)", "value": "Q" },
+    { "label": "High (H)", "value": "H" }
+  ],
+  "presets": [
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+        {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+        {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+        {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+        {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+        {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+        {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+        {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "Sabarmati Police Station",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "size": 512,
+      "ecl": "Q"
+    }
+  ]
+}
