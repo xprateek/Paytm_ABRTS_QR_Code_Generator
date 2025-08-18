@@ -419,7 +419,7 @@ function clearPresetAndText() {
     </main>
 
     <footer class="footer"><a href="http://prateekspace.eu.org/"> Prateek Maru</a> • ©2025 • <a
-        href="https://github.com/0x0prateek/Paytm_A-BRTS_QR_Code_Generator">Source Code</a> • Made with ❤️ Vue 3</footer>
+        href="https://github.com/xprateek/Paytm_ABRTS_QR_Code_Generator">Source Code</a> • Made with ❤️ Vue 3</footer>
   </div>
 </template>
 
