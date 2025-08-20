@@ -163,7 +163,7 @@ async function loadConfig() {
 /* ---------------- Dropdown manager (single-open) ---------------- */
 const openId = ref('') // '', 'size', 'ecl', 'presets'
 function toggleOpen(id) { openId.value = openId.value === id ? '' : id }
-function closeAll() { openId.value = '' }
+function closeAll() { openId.value = ''; stationSearch.value = '' }
 const sizeOpen = computed(() => openId.value === 'size')
 const eclOpen = computed(() => openId.value === 'ecl')
 const ddOpen = computed(() => openId.value === 'presets')
@@ -189,20 +189,38 @@ function applyPresetByName(name) {
   inputText.value = p.text ?? inputText.value
   if (p.size) selectedSize.value = p.size
   if (p.ecl) selectedECL.value = p.ecl
+  stationSearch.value = ''
 }
 
-/* Presets keyboard + choose */
+/* Presets search box state */
+const stationSearch = ref("")
+
+const filteredPresets = computed(() => {
+  if (!config.value?.presets?.length) return []
+  if (!stationSearch.value.trim()) return config.value.presets
+  return config.value.presets.filter(p =>
+    p.name.toLowerCase().includes(stationSearch.value.toLowerCase())
+  )
+})
+
+/* Presets keyboard + choose (updated to work with filtered list) */
 function ddNext() {
-  if (!config.value?.presets?.length) return
+  if (!filteredPresets.value.length) return
   if (!ddOpen.value) toggleOpen('presets')
-  ddActiveIndex.value = (ddActiveIndex.value + 1) % config.value.presets.length
+  ddActiveIndex.value = (ddActiveIndex.value + 1) % filteredPresets.value.length
 }
 function ddPrev() {
-  if (!config.value?.presets?.length) return
+  if (!filteredPresets.value.length) return
   if (!ddOpen.value) toggleOpen('presets')
-  ddActiveIndex.value = (ddActiveIndex.value - 1 + config.value.presets.length) % config.value.presets.length
+  ddActiveIndex.value = (ddActiveIndex.value - 1 + filteredPresets.value.length) % filteredPresets.value.length
 }
-function ddCommit() { ddChoose(ddActiveIndex.value) }
+function ddCommit() { 
+  const preset = filteredPresets.value[ddActiveIndex.value]
+  if (!preset) return
+  // find index in full presets to call ddChoose properly
+  const idx = config.value.presets.findIndex(p => p.name === preset.name)
+  ddChoose(idx)
+}
 function ddChoose(i) {
   const p = config.value.presets[i]
   if (!p) return
@@ -282,8 +300,16 @@ function onSystemThemeChange() {
 function clearPresetAndText() {
   selectedPreset.value = ''
   inputText.value = ''
+  stationSearch.value = ''
   persist()
 }
+
+/* For warning line: get selected station name from preset */
+const selectedStationName = computed(() => {
+  if (!selectedPreset.value) return ''
+  const p = config.value?.presets?.find(x => x.name === selectedPreset.value)
+  return p?.name ?? ''
+})
 </script>
 
 <template>
@@ -332,12 +358,35 @@ function clearPresetAndText() {
                 <span class="dd-arrow" :class="{ open: ddOpen }" aria-hidden="true">▾</span>
               </button>
 
-              <ul v-if="ddOpen" class="dd-menu" role="listbox" :aria-activedescendant="`opt-${ddActiveIndex}`">
-                <li v-for="(p, i) in config.presets" :id="`opt-${i}`" :key="p.name" class="dd-item"
-                  :class="{ active: i === ddActiveIndex }" role="option" :aria-selected="p.name === selectedPreset"
-                  @click="ddChoose(i)" @mousemove="ddActiveIndex = i">
+              <ul v-if="ddOpen" class="dd-menu" role="listbox">
+                <!-- Search box -->
+                <li class="dd-search">
+                  <input
+                    type="text"
+                    v-model="stationSearch"
+                    placeholder="Search station..."
+                    class="input search-input"
+                    @keydown.stop
+                  />
+                </li>
+
+                <!-- Filtered results -->
+                <li
+                  v-for="(p, i) in filteredPresets"
+                  :id="`opt-${i}`"
+                  :key="p.name"
+                  class="dd-item"
+                  :class="{ active: i === ddActiveIndex }"
+                  role="option"
+                  :aria-selected="p.name === selectedPreset"
+                  @click="() => { ddChoose(config.presets.findIndex(x => x.name === p.name)) }"
+                  @mousemove="ddActiveIndex = i"
+                >
                   {{ p.name }}
                 </li>
+
+                <!-- Empty state -->
+                <li v-if="!filteredPresets.length" class="dd-item disabled">No station found</li>
               </ul>
             </div>
           </div>
@@ -777,6 +826,31 @@ h2 {
 .dd-item:hover,
 .dd-item.active {
   background: color-mix(in oklab, var(--primary) 12%, transparent);
+}
+
+.dd-item.disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+  background: transparent !important;
+}
+
+/* Search box inside dropdown */
+.dd-search {
+  padding: 6px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--primary) 25%, transparent);
 }
 
 /* Dark-mode contrast */
