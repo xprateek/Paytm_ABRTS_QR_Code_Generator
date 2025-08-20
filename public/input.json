@@ -1,301 +1,1222 @@
 {
   "sizes": [
-    { "label": "Small (128x128)", "value": 128 },
-    { "label": "Medium (256x256)", "value": 256 },
-    { "label": "Large (512x512)", "value": 512 }
+    {
+      "label": "Small (128x128)",
+      "value": 128
+    },
+    {
+      "label": "Medium (256x256)",
+      "value": 256
+    },
+    {
+      "label": "Large (512x512)",
+      "value": 512
+    }
   ],
   "errorCorrections": [
-    { "label": "Low (L)", "value": "L" },
-    { "label": "Medium (M)", "value": "M" },
-    { "label": "Quartile (Q)", "value": "Q" },
-    { "label": "High (H)", "value": "H" }
+    {
+      "label": "Low (L)",
+      "value": "L"
+    },
+    {
+      "label": "Medium (M)",
+      "value": "M"
+    },
+    {
+      "label": "Quartile (Q)",
+      "value": "Q"
+    },
+    {
+      "label": "High (H)",
+      "value": "H"
+    }
   ],
   "presets": [
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "AAROHI CLUB ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAyMDQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ADALAJ CIRCLE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxOTcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ADALAJ S.T STAND",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxOTgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "AJIT MIL CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "AKHBARNAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMDQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
-      "size": 512,
-      "ecl": "Q"
-    },
-        {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "AMBA TOWNSHIP",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAyMDIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "AMBAR TOWER",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxODkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
-      "size": 512,
-      "ecl": "Q"
-    },
-        {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "AMBLI GAM",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ANDHJAN MANDAL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ANJALI",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ANTRIKSH COLONY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMDYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ARVIND MIL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMjYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ASHOK MIL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMjQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ASHOK VATIKA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNTkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ASTODIYA CHAKALA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
-      "size": 512,
-      "ecl": "Q"
-    },
-        {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "ASTODIYA DARWAJA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BAPUNAGAR APPROACH",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BASANT BAHAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxODQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BETHAK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMzkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BHADAJ CIRCLE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNjUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BHAGWAT BUNGALOWS",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAyMDYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BHAIRAVNATH ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BHAVSAR HOSTEL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMDMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BHAVYA PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMzcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BHIMNANTH MAHADEV",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAyMDUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BHULABHAI PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMzIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
-      "size": 512,
-      "ecl": "Q"
-    },
-        {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BHUYANGDEV",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BOPAL APPROACH",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
-      "size": 512,
-      "ecl": "Q"
-    },
-        {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BOPAL GAM",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNTYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "BRTS WORKSHOP",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "CHANDKHEDA GAM",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "CHANDOLA LAKE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "CHANDRANAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "CHHIPA SOCIETY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "CHHOTALAL NI CHALI",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "CHITTAVAN",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxODMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
-      "size": 512,
-      "ecl": "Q"
-    },
-        {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "CTM CROSS ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "DANILIMDA CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
-      "size": 512,
-      "ecl": "Q"
-    },
-        {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "DANILIMDA ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "DCIS CIRCLE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMzAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     },
     {
-      "name": "Sabarmati Police Station",
-      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXJhbXMiOiI/bWVyY2hhbnRDaXR5S2V5PWFobWVkYWJhZF9icnRzJnNvdXJjZUlkPTAwOTEiLCJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJzcGFyYW1zIjp7InB1bGxSZWZyZXNoIjpmYWxzZSwiY2FuUHVsbERvd24iOmZhbHNlLCJzaG93VGl0bGVCYXIiOmZhbHNlfX0=",
+      "name": "DELHI DARWAJA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNTgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "DHANUSH DHARI MANDIR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "DHARNIDHAR DERASAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "EXPRESS HIGHWAY JUNCTION",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "G. E. B (NARODA)",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxOTQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "G.C.S HOSPITAL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMjcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GALAXY SIGNATURE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNjMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GAYATRI MANDIR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAyMDEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GEETA GAURI CINEMA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GEETA MANDIR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMzEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GHODASAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GHUMA GAM",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMzgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GOTA CROSS ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNjEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GOTA VASANT NAGAR TOWNSHIP",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNjgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GRID STATION",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GUJARAT HIGH COURT",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNjAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GULBAI TEKRA APPROACH",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "GURUDWARA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "HANSPURA GAM",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxOTUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "HANSPURA RING ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxODEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "HANUMAN CAMP",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxOTEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "HANUMANPURA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "HARIDARSHAN CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "HIMMATLAL PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "HIRAWADI",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "ISANPUR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "ISKCON CROSS ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "ISKCON MANDIR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMDUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "ISRO",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JAIMANGAL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMDcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JANTANAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JASHODANAGAR CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JAWAHAR CHOWK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JAYANTILAL PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMDgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JEENING PRESS",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMjUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JHANSI KI RANI",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JODHPUR CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JOGESHWARI SOCIETY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JUHAPURA ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxODcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "JUNA VADAJ",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KALPATARU PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxOTYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KALUPUR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMDMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KALUPUR GHEE BAZAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNDcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KANKARIYA LAKE SHUKLA DADA CHOWK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KANKARIYA TELEPHONE EXCHANGE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KARNAMUKTESHWAR MAHADEV",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMDEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KARNAVATI CLUB",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNjkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KASHIRAM TEXTILES",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KHODIYARNAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KHURSHIRD PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxODgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "KRISHNA NAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "L COLONY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "LAW GARDEN",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNDkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "LD ENGG. COLLEGE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMjAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "LILANAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "LITTLE WINGS",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNTcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "LOKMANYA TILAK BAG",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "M J LIBRARY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNDgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MAKARBA ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MAKTAMPURA WARD OFFICE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxODYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MANEKBAUG",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MANGAL PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMzMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MANINAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MANINAGAR CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MEMCO CROSS ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMjIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MEMNAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MIRA CINEMA CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MORLIDHAR SOCIETY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MOTERA CROSS ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MUKESH INDUSTRIES",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MUKTIDHAM NARODA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MUNICIPAL CORPORATION OFFICE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "MUNICIPAL NORTH ZONE OFFICE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMjEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "N R PATEL PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "NARANGHAT",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAyMDAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "NARAYANA HOSPITAL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNTMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "NARODA BAZAAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxOTMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "NARODA FRUIT MARKET",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMjMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "NARODA GAM",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNDAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "NARODA S. T. WORKSHOP",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "NAROL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "NEHRUNAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "ODHAV FIRE STATION",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "ODHAV TALAV",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "ONGC AVANI BHAVAN",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PANJRAPOLE CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PARASNAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PARSHWANATH JAIN MANDIR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PATEL MILLS",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNTEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PRABHA HANUMAN",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAyMDcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PRAGATINAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMDUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PRAHALAD NAGAR CROSS ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PRAVINNAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxODUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PREM DARWAJA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNDYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "PURVDEEP SOCIETY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "R.T.O CIRCLE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMDEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "R.T.O EXTENSION",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RABARI COLONY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RAIKHAD CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RAIPUR DARWAJA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMDAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RAM RAJYA NAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNDkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RAMAPIR NO TEKARO",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RAMBAUGH",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RAMDEVNAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RAMESHWAR PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RANIP CROSS ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMDIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RANIP SWAPPING STATION",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNjcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RATHI APARTMENT",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "RK ROYAL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAyMDgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SABARMATI MUNICIPAL SWIMMING POOL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SABARMATI POLICE STATION",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SABARMATI POWER HOUSE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SAIJPUR TOWER",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMzQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SAMARPAN BUNGALOWS",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNTAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SANAND CIRCLE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SARANGPUR DARWAJA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMDIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SARKARI LITHO PRESS",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SARKARI LITHO PRESS CABIN",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNDUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SARKHEJ CIRCLE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxOTAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SARTHI BUNGALOWS",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMjkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SATTADHAR CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SCIENCE CITY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNjQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SCIENCE CITY APPROACH",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODcifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SHASTRINAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMDYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SHIV SHAKTINAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SHIVRANJANI",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SHREE VALINATH CHOWK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMDkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SHUKAN MALL",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNjIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SOBO CENTER",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SOLA BHAGWAT",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNDQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SOLA BRIDGE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SOLA CROSS ROAD",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMDgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SOMA TEXTILES",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMTYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SONI NI CHALI",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTIifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SONI NI CHALI B",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwODAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SOUTH BOPAL BRTS TERMINUS",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SP RING ROAD APPROACH",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "STAR BAZAAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNjkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "STERLING CITY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNTUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "STHAPATYA ELIGANCE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxODAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SUKHASAN CHAR RASTA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SWAGAT BUNGALOW",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMDkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SWAGAT CITY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAyMDMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SWAMINARAYAN COLLEGE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SWAMINARAYAN MANDIR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMzAifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "SWAMINARAYAN PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "THAKKAR NAGAR APPROACH",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "TRIMANDIR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxOTkifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "UJALA CIRCLE",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNzMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "UNIVERSITY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMTEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "VAIKUNTH DHAM MANDIR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwMjMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "VALLABH NAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNzUifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "VASNA",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNDEifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "VASUNDHARA SOCIETY",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxNTQifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "VIJAY PARK",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTgifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "VIRATNAGAR",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwNTMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "VISAT-GANDHINAGAR JUNCTION",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAwOTMifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
+      "size": 512,
+      "ecl": "Q"
+    },
+    {
+      "name": "VISHVAKARMA ENGINEERING COLLEGE (GTU)",
+      "text": "paytmmp://mini-app?aId=77a7aa36c00e469482a6219004fde717&data=eyJwYXRoIjoiL2NpdHktYnVzL2dldFNvdXJjZURldGFpbHMiLCJwYXJhbXMiOnsibWVyY2hhbnRDaXR5S2V5IjoiYWhtZWRhYmFkX2JydHMiLCJzb3VyY2VJZCI6IjAxMzYifSwic3BhcmFtcyI6eyJwdWxsUmVmcmVzaCI6ZmFsc2UsImNhblB1bGxEb3duIjpmYWxzZSwic2hvd1RpdGxlQmFyIjpmYWxzZX19",
       "size": 512,
       "ecl": "Q"
     }
