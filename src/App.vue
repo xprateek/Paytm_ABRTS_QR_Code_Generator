@@ -2,12 +2,14 @@
 import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import QRCode from 'qrcode'
 
+
 /* ---------------- Theme ---------------- */
 const theme = ref('system') // 'system' | 'light' | 'dark'
 const showMenu = ref(false)
 const mql = window.matchMedia?.('(prefers-color-scheme: dark)')
 const isDark = computed(() => theme.value === 'dark' || (theme.value === 'system' && mql?.matches))
 function setTheme(v) { theme.value = v; showMenu.value = false; persist() }
+
 
 /* ---------------- State from JSON ---------------- */
 const config = ref(null)
@@ -17,16 +19,25 @@ const selectedSize = ref(256)
 const errorCorrectionLevels = ref([])
 const selectedECL = ref('M')
 
+
 /* ---------------- Preset behavior ---------------- */
 const selectedPreset = ref('') // preset name; empty when not set
 const textLockedByPreset = computed(() => !!selectedPreset.value)
 
+
 /* ---------------- QR generation ---------------- */
 const qrDataUrl = ref('')
+const qrLabelDataUrl = ref('')
+
+// Generate plain QR Data URL (for preview without label)
 async function generateQRCode() {
   try {
     const text = (inputText.value || '').trim()
-    if (!text) { qrDataUrl.value = ''; return }
+    if (!text) {
+      qrDataUrl.value = ''
+      qrLabelDataUrl.value = ''
+      return
+    }
     qrDataUrl.value = await QRCode.toDataURL(text, {
       width: Number(selectedSize.value),
       margin: 2,
@@ -36,10 +47,73 @@ async function generateQRCode() {
         light: isDark.value ? '#111827' : '#ffffff'
       }
     })
+    qrLabelDataUrl.value = await generateLabeledQR()
   } catch {
     qrDataUrl.value = ''
+    qrLabelDataUrl.value = ''
   }
 }
+
+// Generate QR code with label (station name) below, merged on canvas as PNG data URL
+async function generateLabeledQR() {
+  const label = selectedStationName.value.trim() || 'Station'
+  const size = Number(selectedSize.value)
+  const margin = 16
+  const font = '16px Arial'
+  const labelPadding = 4
+
+  // Create a canvas sized for QR + label below
+  const canvas = document.createElement('canvas')
+
+  // Calculate label text width to ensure canvas width fits label and QR code (whichever is wider)
+  const textWidth = measureTextWidth(label, font)
+  const width = Math.max(size, textWidth + margin * 2)
+  const height = size + margin + 24 + labelPadding // QR code + margin + label height + padding
+
+  canvas.width = width
+  canvas.height = height
+
+  const ctx = canvas.getContext('2d')
+
+  // Draw background - light/dark mode
+  ctx.fillStyle = isDark.value ? '#111827' : '#ffffff'
+  ctx.fillRect(0, 0, width, height)
+
+  // Generate QR code image to draw
+  const qrImgData = await QRCode.toDataURL(inputText.value, {
+    width: size,
+    margin: 2,
+    errorCorrectionLevel: selectedECL.value,
+    color: {
+      dark: isDark.value ? '#e5e7eb' : '#111827',
+      light: isDark.value ? '#111827' : '#ffffff'
+    }
+  })
+  const qrImg = new Image()
+  qrImg.src = qrImgData
+  await new Promise((res) => { qrImg.onload = res })
+
+  // Draw QR code centered horizontally
+  ctx.drawImage(qrImg, (width - size) / 2, 0)
+
+  // Draw label below QR code
+  ctx.font = font
+  ctx.fillStyle = isDark.value ? '#e5e7eb' : '#111827'
+  ctx.textAlign = 'center'
+  ctx.textBaseline = 'top'
+  ctx.fillText(label, width / 2, size + margin + labelPadding)
+
+  return canvas.toDataURL('image/png')
+}
+
+// Measure text width helper (used for canvas sizing)
+function measureTextWidth(text, font) {
+  const canvas = document.createElement('canvas')
+  const ctx = canvas.getContext('2d')
+  ctx.font = font
+  return ctx.measureText(text).width
+}
+
 
 /* ---------------- Persistence ---------------- */
 const STORAGE_KEY = 'qr-studio:state'
@@ -55,7 +129,7 @@ function persist() {
         selectedPreset: selectedPreset.value
       })
     )
-  } catch { }
+  } catch {}
 }
 function restore() {
   try {
@@ -67,15 +141,18 @@ function restore() {
     if (data.selectedSize) selectedSize.value = data.selectedSize
     if (data.selectedECL) selectedECL.value = data.selectedECL
     if (data.selectedPreset) selectedPreset.value = data.selectedPreset
-  } catch { }
+  } catch {}
 }
+
 
 /* ---------------- JSON validation (no editor) ---------------- */
 const jsonError = ref('')
 
+
 function isString(v) { return typeof v === 'string' }
 function isArray(v) { return Array.isArray(v) }
 function isObject(v) { return v && typeof v === 'object' && !Array.isArray(v) }
+
 
 function validateConfig(obj) {
   if (!isObject(obj)) return 'Config must be a JSON object'
@@ -109,6 +186,7 @@ function validateConfig(obj) {
   }
   return ''
 }
+
 
 async function loadConfig() {
   jsonError.value = ''
@@ -160,6 +238,7 @@ async function loadConfig() {
   }
 }
 
+
 /* ---------------- Dropdown manager (single-open) ---------------- */
 const openId = ref('') // '', 'size', 'ecl', 'presets'
 function toggleOpen(id) { openId.value = openId.value === id ? '' : id }
@@ -168,9 +247,11 @@ const sizeOpen = computed(() => openId.value === 'size')
 const eclOpen = computed(() => openId.value === 'ecl')
 const ddOpen = computed(() => openId.value === 'presets')
 
+
 const ddActiveIndex = ref(0)
 const sizeActiveIndex = ref(0)
 const eclActiveIndex = ref(0)
+
 
 const sizeLabel = computed(() => {
   const found = sizeOptions.value.find(o => o.value === selectedSize.value)
@@ -180,6 +261,7 @@ const eclLabel = computed(() => {
   const found = errorCorrectionLevels.value.find(o => o.value === selectedECL.value)
   return found ? found.label : 'Select error correction…'
 })
+
 
 function applyPresetByName(name) {
   if (!config.value?.presets?.length) return
@@ -192,8 +274,10 @@ function applyPresetByName(name) {
   stationSearch.value = ''
 }
 
+
 /* Presets search box state */
 const stationSearch = ref("")
+
 
 const filteredPresets = computed(() => {
   if (!config.value?.presets?.length) return []
@@ -202,6 +286,7 @@ const filteredPresets = computed(() => {
     p.name.toLowerCase().includes(stationSearch.value.toLowerCase())
   )
 })
+
 
 /* Presets keyboard + choose (updated to work with filtered list) */
 function ddNext() {
@@ -214,10 +299,9 @@ function ddPrev() {
   if (!ddOpen.value) toggleOpen('presets')
   ddActiveIndex.value = (ddActiveIndex.value - 1 + filteredPresets.value.length) % filteredPresets.value.length
 }
-function ddCommit() { 
+function ddCommit() {
   const preset = filteredPresets.value[ddActiveIndex.value]
   if (!preset) return
-  // find index in full presets to call ddChoose properly
   const idx = config.value.presets.findIndex(p => p.name === preset.name)
   ddChoose(idx)
 }
@@ -228,6 +312,7 @@ function ddChoose(i) {
   closeAll()
   persist()
 }
+
 
 /* Size keyboard + choose */
 function sizeNext() {
@@ -249,6 +334,7 @@ function sizeChoose(i) {
   persist()
 }
 
+
 /* ECL keyboard + choose */
 function eclNext() {
   if (!errorCorrectionLevels.value.length) return
@@ -269,17 +355,20 @@ function eclChoose(i) {
   persist()
 }
 
+
 /* Close when clicking outside any .dd */
 function onDocumentClick(e) {
   const inside = e.target.closest?.('.dd')
   if (!inside) closeAll()
 }
 
+
 /* ---------------- Effects ---------------- */
 watch([inputText, selectedSize, selectedECL, isDark], () => {
   generateQRCode()
   persist()
 })
+
 
 onMounted(async () => {
   restore()
@@ -296,6 +385,7 @@ function onSystemThemeChange() {
   if (theme.value === 'system') generateQRCode()
 }
 
+
 /* UI helper */
 function clearPresetAndText() {
   selectedPreset.value = ''
@@ -304,12 +394,30 @@ function clearPresetAndText() {
   persist()
 }
 
+
 /* For warning line: get selected station name from preset */
 const selectedStationName = computed(() => {
   if (!selectedPreset.value) return ''
   const p = config.value?.presets?.find(x => x.name === selectedPreset.value)
   return p?.name ?? ''
 })
+
+// Computed property to provide dynamic download filename including station name
+const computedDownloadName = computed(() => {
+  const station = selectedStationName.value.trim() || 'qr-code'
+  const safeName = station.replace(/\s+/g, '_').replace(/[^\w\-]/g, '')
+  return `${safeName}.png`
+})
+
+// Method to force download via a created anchor element (to avoid some browser quirks)
+function downloadImageWithLabel() {
+  const link = document.createElement('a')
+  link.href = qrLabelDataUrl.value
+  link.download = computedDownloadName.value
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
+}
 </script>
 
 <template>
@@ -461,7 +569,15 @@ const selectedStationName = computed(() => {
         </p>
 
         <div class="buttons">
-          <a v-if="qrDataUrl" :href="qrDataUrl" download="qr-code.png" class="btn primary">Download PNG</a>
+          <a
+            v-if="qrLabelDataUrl"
+            :href="qrLabelDataUrl"
+            :download="computedDownloadName"
+            class="btn primary"
+            @click.prevent="downloadImageWithLabel"
+          >
+            Download PNG
+          </a>
           <button class="btn" @click="inputText = ''; selectedPreset = '';">Clear</button>
         </div>
       </section>
