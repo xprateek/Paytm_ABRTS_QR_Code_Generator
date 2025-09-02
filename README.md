@@ -6,6 +6,7 @@ A simple, MIT‑licensed Vue 3 application to generate payment QR codes for Payt
 
 🔥 Visit the deployed app:
 - https://abrts.prateekspace.eu.org/
+- [ALT] https://abrts.pages.dev/
 
 > Community project — not affiliated with Paytm, AMC, or BRTS.
 
