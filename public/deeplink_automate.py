@@ -33,7 +33,7 @@ def station_name_for(source_id: str) -> str:
 
 def main():
     start = 1
-    end = 210
+    end = 250
 
     with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)

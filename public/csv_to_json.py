@@ -5,8 +5,8 @@ from pathlib import Path
 INPUT_CSV = "abrts_deeplinks.csv"
 OUTPUT_JSON = "abrts_deeplinks.json"
 
-DEFAULT_SIZE = 512
-DEFAULT_ECL = "Q"
+DEFAULT_SIZE = 256
+DEFAULT_ECL = "L"
 
 def row_to_object(row: dict) -> dict:
     # Extract fields safely

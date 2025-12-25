@@ -41,8 +41,8 @@ def main():
         pretty_output = {
             "name": station_name,
             "text": deeplink,
-            "size": 512,
-            "ecl": "Q"
+            "size": 256,
+            "ecl": "L"
         }
         print("\n" + json.dumps(pretty_output, indent=4))
     except KeyboardInterrupt:
